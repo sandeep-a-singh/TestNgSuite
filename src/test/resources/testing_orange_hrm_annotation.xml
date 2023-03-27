@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Web Suite">
+  <test name="OrangeHRMLogin">
+    <classes>
+      <class name ="com.sunny.testng.annotations.GoogleAnnotationTest">
+        <methods>
+          <include name="launchApp"></include>
+          <include name="search"></include>
+          <include name="verifyResult"></include>
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+</suite>

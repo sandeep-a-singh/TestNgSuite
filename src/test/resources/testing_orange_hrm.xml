@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite>
+  <test name="OrangeHRMLogin">
+    <classes>
+      <class name ="com.sunny.testng.OrangeHRMTest">
+        <method >
+          <include name="launchApp"></include>
+          <include name="enterLoginDetails"></include>
+          <include name="verifyLogin"></include>
+        </method>
+      </class>
+    </classes>
+  </test>
+
+</suite>
